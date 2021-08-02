@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+a{
+    color: navy;
+    text-decoration: none;
+}
+h1{
+    color: green;
+    font-size:70px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin:0px;
+    padding: 50px;
+}
+#active{
+    color:red;
+    text-decoration: underline;
+}
+ol{
+    border-right: none;
+    width: 80px;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 30px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#article{
+    padding: 10px;
+    border-left: 2px solid gray;
+}
+@media(max-width:800px){
+    #grid{
+        display: block;
+    }
+    #list{
+        border-bottom: 2px solid rebeccapurple;
+    }
+    ol{
+        border-right: none;
+    }
+}
